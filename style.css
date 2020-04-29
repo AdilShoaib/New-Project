@@ -226,7 +226,8 @@ ul {
     z-index: 1;
     align-items: center;
     text-align: center;
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
+    padding-right: 6rem;
     margin-top: 3rem;
 }
 .testimonials .testimonials-content h3 {
@@ -403,6 +404,9 @@ ul {
         padding-left: 3rem;
         z-index: 1;
     }
+    .showcase .showcase-content {
+        padding-bottom: 15rem;
+    }
     .showcase h3 {
         font-size: 1.8rem;
     }
@@ -480,7 +484,7 @@ ul {
         z-index: 1;
     }
 }
-@media(max-width: 1366px) {
+/* @media(max-width: 1366px) {
     .testimonials .testimonials-content h3 {
         font-size: 5rem;
     }
@@ -512,6 +516,7 @@ ul {
         text-align: center;
         justify-content: center;
     }
-}
+} */
+
 
 
